@@ -1,0 +1,94 @@
+body{
+    margin:0 auto;
+    font-family : SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    color:rgba(0,0,0,0.87)
+}
+*{
+    box-sizing: border-box;
+}
+a{
+    color:black;   
+}
+header{
+    position:relative;
+    height:101px;
+    box-shadow: 0 1px 3px rgb(0 0 0 /10%),0 2px 2px rgb(0 0 0 /6%), 0 1px 2px rgb(0 0 0 /7%);
+    z-index: 10;
+}
+.logo img{
+    height:100%;
+}
+.logo{
+    height:51px;
+    width:51px;
+}
+.header-container {
+    max-width: 1440px;
+    height:100%;
+    margin:0 50px 0 50px;
+    justify-content: space-between;
+    display:flex;
+}
+.left-nav{
+    display: flex;
+    align-items: center;  
+    height:100%;  
+}
+.left-nav nav ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+.left-nav nav ul li{
+    text-transform: uppercase;
+    padding-left: 24px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+.left-nav nav ul li:hover{
+    color:#008248;
+    cursor: pointer;
+}
+.right-nav{
+    display: flex;
+    align-items: center;
+}
+.find-store{
+    display: flex;
+    align-items: center;
+    margin-right: 35px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.find-store:hover{
+    color:#008248;
+}
+.join-now ,.sign-in {
+    padding:7px 16px;
+    border: 1px solid;
+    border-radius: 50px;
+    font-weight: 600;
+    line-height: 1.2;
+    cursor: pointer;
+}
+.join-now{
+    background-color: black;
+    color:white;    
+}
+.sign-in{
+    margin-right: 16px;
+}
+.find-store i{
+    padding-right:8px;
+    font-size:29px;
+}
+.join-now:hover{
+    background-color: rgba(0,0,0,.7);
+    border-color: rgba(0,0,0,.7);
+    transition:0.1em;
+}
+.sign-in:hover{
+    background-color: rgba(241, 239, 239, 0.87);
+}
+
